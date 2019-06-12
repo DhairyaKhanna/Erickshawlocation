@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/erickshaw"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="60dp"
+        android:id="@+id/erickshawz"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="THE E-RICKSHAW APP"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25dp"
+        android:id="@+id/text"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="300dp"
+        android:text="LogIn"
+        android:textSize="25dp"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/login"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="390dp"
+        android:text="SIGN UP"
+        android:textSize="25dp"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/signup"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:text="Book an E-Rickshaw Now"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="25dp"
+        android:background="@android:color/holo_orange_dark"
+        android:id="@+id/book"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/signup"
+        android:layout_marginLeft="185dp"
+        android:layout_marginBottom="40dp"
+        android:text="or"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_green_dark"
+
+
+        />
+
+
+
+</RelativeLayout>
